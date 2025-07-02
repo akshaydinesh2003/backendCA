@@ -1,0 +1,5 @@
+Flask
+flask-cors
+PyMuPDF
+firebase-admin
+google-generativeai

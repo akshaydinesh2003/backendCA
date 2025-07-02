@@ -1,0 +1,35 @@
+ECHO is on.
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Firebase credentials
+firebase-service-key.json
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Flask cache
+instance/
+*.db
+*.sqlite
+
+# Render deployment artifacts (optional)
+build/
