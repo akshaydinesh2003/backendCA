@@ -165,3 +165,4 @@ A:"""
 # === Run ===
 if __name__ == "__main__":
     app.run(debug=True)
+    CORS(app, origins=["https://frontend-ca-one.vercel.app"])
